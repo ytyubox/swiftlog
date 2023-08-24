@@ -14,7 +14,10 @@ import SwiftUI
 struct swiftlogApp: App {
     var body: some Scene {
         WindowGroup {
+          NavigationView {
             ContentView()
+              .navigationTitle("Logger playground")
+          }
         }
     }
 }
